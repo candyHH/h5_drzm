@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container{
+  width: 100%;
+  height: 100%;
+}
+
+.blue-slide {
+	background: #cce5f6;
+  height: 100%;
+}
+
+.orange-slide {
+	background: #fcb322;
+  height: 100%;
+}
+
+.red-slide {
+	background: #fa6049;
+  height: 100%;
+}
+
+.deep-blue-slide{
+  background: #94d3eb;
+  height: 100%;
+}
+
+.green-slide{
+  background: #57b557;
+  height: 100%;
+}
+
+.blue-slide img{
+  height: 100%;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.orange-slide img{
+  height: 100%;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.red-slide img{
+  height: 100%;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.deep-blue-slide img{
+  height: 100%;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.green-slide img{
+  height: 100%;
+  width: 96%;
+  margin: 0 2%;
+}
+
+.download-btn{
+  position: relative;
+  top: -23%;
+  left: 10%;
+  width: 42%;
+  height: 8%;
+}
+.download-btn img{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
