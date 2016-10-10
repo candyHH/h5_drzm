@@ -74,6 +74,8 @@ html,body{
   left: 10%;
   width: 42%;
   height: 8%;
+	background-color: transparent;
+  border: none;
 }
 .download-btn img{
   width: 100%;

@@ -58,11 +58,4 @@ wx.ready(function() {
       'menuItem:share:QZone'
     ],
   });
-
 });
-// wx.error(function(res) {
-//   alert(res.errMsg);
-// });
-// wx.success(function (res) {
-//   alert('hhhhh');
-// })
