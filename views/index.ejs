@@ -42,4 +42,9 @@
   <%include include_share.ejs%>
   <script src="javascripts/swiper.min.js"></script>
   <script src="javascripts/index.js"></script>
+  <script type="text/javascript">
+    $('.download-btn').on('click',function () {
+      window.location.href='http://www.lalocal.cn/download/?source='+'<%=src%>';
+    })
+  </script>
 </html>

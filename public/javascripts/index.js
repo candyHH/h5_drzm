@@ -13,7 +13,3 @@ $(document).ready(function () {
     $('.pic-bg').css('width','100%');
   }
 })
-
-$('.download-btn').on('click',function () {
-  window.location.href='http://www.lalocal.cn/download/?source=wechat';
-})
