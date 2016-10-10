@@ -44,7 +44,11 @@
   <script src="javascripts/index.js"></script>
   <script type="text/javascript">
     $('.download-btn').on('click',function () {
-      window.location.href='http://www.lalocal.cn/download/?source='+'<%=src%>';
+      if('<%=src%>'=='null'){
+        window.location.href='http://a.app.qq.com/o/simple.jsp?pkgname=com.lalocal.lalocal';
+      }else{
+        window.location.href='http://www.lalocal.cn/download/?source='+'<%=src%>';
+      }
     })
   </script>
 </html>
