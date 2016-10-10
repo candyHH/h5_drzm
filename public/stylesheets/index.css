@@ -15,70 +15,43 @@ html,body{
 
 .blue-slide {
 	background: #cce5f6;
-  height: 100%;
 }
 
 .orange-slide {
 	background: #fcb322;
-  height: 100%;
-}
-
-.red-slide {
-	background: #fa6049;
-  height: 100%;
 }
 
 .deep-blue-slide{
   background: #94d3eb;
-  height: 100%;
+}
+
+.red-slide {
+	background: #fa6049;
 }
 
 .green-slide{
   background: #57b557;
-  height: 100%;
 }
 
-.blue-slide img{
-  height: 100%;
-  width: 96%;
-  margin: 0 2%;
-}
-
-.orange-slide img{
-  height: 100%;
-  width: 96%;
-  margin: 0 2%;
-}
-
-.red-slide img{
-  height: 100%;
-  width: 96%;
-  margin: 0 2%;
-}
-
-.deep-blue-slide img{
-  height: 100%;
-  width: 96%;
-  margin: 0 2%;
-}
-
-.green-slide img{
-  height: 100%;
-  width: 96%;
-  margin: 0 2%;
+.swiper-slide{
+	text-align: center;
+	display: table-cell;
+  vertical-align:middle;
+	height: 100%;
+	width: 100%;
 }
 
 .download-btn{
-  position: relative;
-  top: -23%;
-  left: 10%;
-  width: 42%;
-  height: 8%;
+	position: relative;
+	top: -23%;
+	left: -15%;
+	width: 38%;
+	height: 8%;
 	background-color: transparent;
-  border: none;
+	border: none;
 }
+
 .download-btn img{
   width: 100%;
   height: 100%;
-  margin: 0;
 }
