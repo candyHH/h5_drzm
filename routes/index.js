@@ -45,6 +45,4 @@ router.get('/index', function(req, res, next) {
     });
 });
 
-
-
 module.exports = router;
